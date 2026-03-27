@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Kimi AI",
-    "slug": "kimi-ai",
+    "name": "Kimi AIChat",
+    "slug": "kimiai",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,12 +15,6 @@
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      },
       "package": "com.chiranjeevi18.mobile"
     },
     "web": {
@@ -31,8 +25,9 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "252cb11c-9f88-4eb0-ab83-c152d92f2e27"
+        "projectId": "36a7e518-7b52-438f-aea7-c1ba2ba7fa57"
       }
-    }
+    },
+    "owner": "chiranjeevi18"
   }
 }
