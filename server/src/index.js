@@ -16,7 +16,13 @@ const PORT = process.env.PORT || 5000;
 
 // Security middleware
 app.use(helmet());
-app.use(cors());
+
+// Cross-Origin Resource Sharing (CORS)
+app.use(cors({
+    origin: '*',
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+}));
 
 // Rate limiting
 app.use(generalLimiter);
